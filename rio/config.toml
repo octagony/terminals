@@ -1,0 +1,26 @@
+editor = 'nvim'
+cursor = '▇'
+blinking-cursor = false
+# ignore-selection-foreground-color = false
+# use-kitty-keyboard-protocol = false
+performance = "High"
+theme = "catppuccin-mocha"
+
+[window]
+width = 600
+height = 800
+mode = "Windowed"
+foreground-opacity = 1.0
+background-opacity = 0.8
+blur = true
+
+[fonts]
+family = "JetBrains Mono"
+size = 18
+
+[navigation]
+mode = "CollapsedTab"
+clickable = false
+use-current-path = false
+color-automation = []
+macos-hide-window-buttons = false
