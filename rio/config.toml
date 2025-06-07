@@ -1,5 +1,6 @@
 theme = "mocha"
 line-height = 1
+confirm-before-quit = false
 
 [cursor]
  shape = 'block'
