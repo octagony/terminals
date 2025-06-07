@@ -1,26 +1,30 @@
-editor = 'nvim'
-cursor = '▇'
-blinking-cursor = false
-# ignore-selection-foreground-color = false
-# use-kitty-keyboard-protocol = false
-performance = "High"
-theme = "catppuccin-mocha"
+theme = "mocha"
+line-height = 1
+
+[cursor]
+ shape = 'block'
+
+[editor]
+ program = "nvim"
+ args = []
 
 [window]
-width = 600
-height = 800
-mode = "Windowed"
-foreground-opacity = 1.0
-background-opacity = 0.8
-blur = true
+ width = 1280
+ height = 720
+ mode = "windowed"
+ decorations = "Buttonless"
+
+
+[renderer]
+ performance = "high"
+ backend = "GL"
+ disable-unfocused-render = true
+ level = 1
 
 [fonts]
-family = "JetBrains Mono"
-size = 18
+ family = "JetBrainsMono Nerd Font"
+ hinting = false
+ size = 22
 
-[navigation]
-mode = "CollapsedTab"
-clickable = false
-use-current-path = false
-color-automation = []
-macos-hide-window-buttons = false
+[shell]
+ program = "/bin/zsh"
