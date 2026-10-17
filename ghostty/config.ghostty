@@ -16,3 +16,4 @@ window-padding-y = 10
 window-theme = ghostty
 window-show-tab-bar = never
 bell-features = no-title
+shell-integration = none
